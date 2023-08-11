@@ -1,0 +1,60 @@
+.form {
+  margin: 1.2rem auto;
+  width: 90%;
+  max-width: 40rem;
+  padding: 2rem;
+}
+
+.form_control {
+  display: flex;
+  margin: 1rem 0;
+  align-items: center;
+}
+
+.form_control label {
+  font-weight: bold;
+  color: #464646;
+  margin-bottom: 0.5rem;
+  flex: 1;
+}
+
+.form_control input {
+  flex: 3;
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  padding: 0.35rem;
+}
+
+.form_control input:focus {
+  outline: none;
+  border-color: #4f005f;
+  background: #f6dbfc;
+}
+
+.form_control.invalid input {
+  border-color: red;
+  background: #fbdada;
+}
+
+.login {
+  font: inherit;
+  cursor: pointer;
+  margin: 1rem auto;
+  font-size: 1.15rem;
+  display: flex;
+  align-items: center;
+  padding: 0.7rem 3rem;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  background-color: #4f005f;
+  color: white;
+}
+
+.login:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}

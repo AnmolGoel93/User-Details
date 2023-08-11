@@ -1,0 +1,13 @@
+.loggedIn {
+  width: 90%;
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.message {
+  text-align: center;
+  font: inherit;
+  font-size: 2rem;
+  font-weight: bold;
+}
